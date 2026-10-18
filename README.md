@@ -1,7 +1,20 @@
-# AblationControl Public Minimal Skeleton
+# OPERA: Real-time Multi-wavelength PA Toolkit
 
-This directory is a public-safe minimal repository draft for a real-time ablation experiment workflow.
+**OPERA** (OPOTEK–vERAsonics Architecture) is an open-source framework for real-time multi-spectral photoacoustic imaging (RT-mPAI).
+An external microcontroller counts every laser pulse in hardware, so the wavelength tag on each RF frame does not depend on host OS timing (validated so far on a phantom; see the paper). Frames stream over TCP to a separate workstation and are handed to your own processing through shared memory.
 
+**Project page:** https://ryomurakami-medrobo.github.io/OPERA_Realtime-Multiwavelength-PA-Toolkit/ · **Current release:** v0.2.0 (2026-10-18) · [Changelog](CHANGELOG.md)
+
+| Wire phantom: wavelength tagging (poster Fig. 2) | Ex vivo porcine heart: RF ablation monitoring (poster Fig. 3) |
+|---|---|
+| [![Phantom video](docs/media/opera_phantom_tagging.jpg)](docs/media/opera_phantom_tagging.mp4) | [![Heart ablation video](docs/media/opera_heart_ablation.jpg)](docs/media/opera_heart_ablation.mp4) |
+| 2,000 frames at 20 Hz, 4 wavelengths. Tagged spectrum vs. reference R² = 0.998. | 5 wavelengths at 20 Hz, 49 packages over 250 s, playback 10×. |
+
+Both videos are rebuilt by [`tools/media/build_poster_videos.py`](tools/media/build_poster_videos.py); source and output hashes are recorded in [`docs/media/manifest.json`](docs/media/manifest.json).
+
+## About this repository
+
+This repository is a public-safe minimal reference for a real-time multi-wavelength workflow.
 The repository direction is general-purpose real-time workflow tooling.
 As an initial example, the first reference path is described around an OPOTEK-laser and Verasonics-host setup.
 
@@ -38,7 +51,7 @@ Not included:
 ## Repository Layout
 
 ```text
-AblationControl_public/
+OPERA_Realtime-Multiwavelength-PA-Toolkit/
   arduino/trigger_monitor_minimal/
   verasonics/
   server/
@@ -46,10 +59,12 @@ AblationControl_public/
   shared_memory/
   config/
   sample_data/
-  docs/
+  docs/            project page (index.html), media/, design notes
+  tools/media/     scripts that build the page videos and images
   notices/
   LICENSE
   CREDITS.md
+  CHANGELOG.md
 ```
 
 ## Quick Start (Structure Verification)

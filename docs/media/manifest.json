@@ -1,0 +1,120 @@
+{
+  "generated_utc": "2026-10-18T07:08:33Z",
+  "toolkit_commit": "861fe76",
+  "script": "tools/media/build_poster_videos.py",
+  "clips": [
+    {
+      "id": "phantom",
+      "video": "media/opera_phantom_tagging.mp4",
+      "poster": "media/opera_phantom_tagging.jpg",
+      "duration_s": 32.0,
+      "bytes": 2106674,
+      "sha256": "0d24c2e97c11046e4f344f197959fb01f22dac71aa7420b91185e8aac0967175",
+      "source": {
+        "sha256": "674c2cdf7b1f09ec50f24a8055e51c04a7d7e9556dd3e17c87e9f74c280dc192",
+        "file": "step2_step3_results.mat",
+        "dataset": "Packaging validation 2026-04-03, run r5 vs standard 2 (analysis run 2026-04-22 16:41)"
+      },
+      "frames_in_source": 2000,
+      "acquisition_seconds": 100.0,
+      "playback_speed": 4.2,
+      "wavelengths_nm": [
+        700,
+        740,
+        760,
+        780
+      ],
+      "r2_tagged_vs_reference": 0.9984,
+      "tagged_spectrum": [
+        2.253,
+        4.56,
+        3.372,
+        2.319
+      ],
+      "reference_spectrum": [
+        2.266,
+        4.553,
+        3.32,
+        2.265
+      ]
+    },
+    {
+      "id": "heart",
+      "video": "media/opera_heart_ablation.mp4",
+      "poster": "media/opera_heart_ablation.jpg",
+      "duration_s": 24.5,
+      "bytes": 1192171,
+      "sha256": "0893e0e9be4edced6ebec37c8618ccc7381da6c4bc4a13f95756978f3fcc490e",
+      "source": {
+        "sha256": "f6e630a9f7fdeb7e56fbd0c8b008e32dc076fa49e0a9b7807dd77c06b065a70a",
+        "file": "frame_index.csv + 49 overlay PNGs",
+        "frame_sha256": {
+          "overlay_01_pkg01_t005s.png": "a9716db509964e3ce01664a9513d3606843f7e685f5b90988ab9d240078e54e8",
+          "overlay_02_pkg03_t015s.png": "e8edfd63a491e1079521a294ddebfad2bfa3a51c6cfd637d9adf60c278ab0685",
+          "overlay_03_pkg04_t020s.png": "23c4e0cb0802f33d175517589854114dbeb904a38ca7a2710199694621159c4a",
+          "overlay_04_pkg05_t025s.png": "1e7e1cd5690a515ac92621a5ee7e1e272ac506f788602aacb8f8cef73f35148c",
+          "overlay_05_pkg06_t030s.png": "88d7688cc64f249d9933e7de6b0b2aa913d4bae9ab1a21716252fe93a73472a3",
+          "overlay_06_pkg07_t035s.png": "861562eb4987cd961cbf19c3358712cc638ad5b23e72947e3d54a035b28c79a0",
+          "overlay_07_pkg08_t040s.png": "fd456b82b695d418e1cf51d99e007ee88b9a0b22e804a5684d1b4d8884def05c",
+          "overlay_08_pkg09_t045s.png": "2ee253ac197515f64fcd005e587c8f50f4e1a62c541ced50088a42c799ba1326",
+          "overlay_09_pkg10_t050s.png": "b05b83b470dcc3a3a7316d89932b1b612a96b62f642f18c45ca0da02815f0cfe",
+          "overlay_10_pkg11_t055s.png": "ed5f6fb225edf78070d54de0df459734df07fe4439c1b6043ebc8f1105aed143",
+          "overlay_11_pkg12_t060s.png": "466dc6a79624332c0f718eeaa912190b96f847cac5ed4f8b2498cc73ba64c9ce",
+          "overlay_12_pkg13_t065s.png": "a96ea6070a3ab4f45fa26a8f1387311c66801ed8007fd56bf91348c49c8d3ef5",
+          "overlay_13_pkg14_t070s.png": "e6c67b0ead15bc2bdb6ffa18f1088a70e91dc05fd3c9ea3ca6bf96fa0f066bb8",
+          "overlay_14_pkg15_t075s.png": "848657ff6f79673f08e9c4737a67c64bb92991b5c283877aa6b1f9a68af058a4",
+          "overlay_15_pkg16_t080s.png": "7431ce04c0833f4ec27a1f54c59d4a8a8e998be1b0b5e52295123ec336e5662e",
+          "overlay_16_pkg17_t085s.png": "c3ecb73313b729d32f4d9538c74f5535269339d462d612e796ec2689f64063e5",
+          "overlay_17_pkg18_t090s.png": "def7c324a79cc3bb2a6f4470b9dfbefd2c3b79862a48440f2529871a6c3e30c2",
+          "overlay_18_pkg19_t095s.png": "f575b65f799ab15053860f1d688a1fa44a888279706567ece27fbbba5a5dca69",
+          "overlay_19_pkg20_t100s.png": "26f8886ee0ee672de20e8559338f4cc33b1749184ed14a53ce9e1124c48437f4",
+          "overlay_20_pkg21_t105s.png": "be72bebe051037d4f8c73e8a70205e05fddc7bc11c5f9447e96f7cdc42d8db44",
+          "overlay_21_pkg22_t110s.png": "4781e2bc121506fc4530db3dc77458ecb72fc83ec2286081607ac5e09d35a41c",
+          "overlay_22_pkg23_t115s.png": "67cacf8038af01d6a58722fa80e7f37c6043c2e2dbfcac5245fee4be26604980",
+          "overlay_23_pkg24_t120s.png": "874235d1dd625ec3d0050457e9b475a076a79e7e68b5c4dbfc5e026bc5f95e28",
+          "overlay_24_pkg25_t125s.png": "1cef4c045f6e264cf67470f6b40e9dec22602e69fbccc3af0264232697a97b7c",
+          "overlay_25_pkg26_t130s.png": "b6533079eb4176128c90a062906d34c9485eb1a68faf8fb57e8751b4955588b7",
+          "overlay_26_pkg27_t135s.png": "d5e2c4e8d97baaebd74aebc58318a566ce80b7d1c3c91e86ac4e0e68a88195b2",
+          "overlay_27_pkg28_t140s.png": "162a092c6eeaf53e6c3460d82efd65768fd36c3732b35fe25e170e12bfab401e",
+          "overlay_28_pkg29_t145s.png": "6a332a55058c7ff7ed5625ff3c86bbce53fd88f0cab497c2df045db45777bab9",
+          "overlay_29_pkg30_t150s.png": "c93abf0d8d18f54f9c765b6f5535b8583830c50eb0756865709ae3ac4b5690fe",
+          "overlay_30_pkg31_t155s.png": "575e639165b148e21ff5db66250ecbcba22cd0e2a22ca82da5eb24d8c331679e",
+          "overlay_31_pkg32_t160s.png": "48b384f5e764f369f6c721d723764cd534c8416a602d5d65cfdd90fe41b07e08",
+          "overlay_32_pkg33_t165s.png": "828f497fb0fe094b5331e8f1064a64ec4662708f158cb6bad14987013648bb06",
+          "overlay_33_pkg34_t170s.png": "c57bb7e3959e71c7732d2318df5e87bbb9f4219265a8ef96cd97d122e226c7ea",
+          "overlay_34_pkg35_t175s.png": "486e90cab6384edc3ed9b10cc0ed893d5c1b7dbe1f93004ea7b76521b040a72b",
+          "overlay_35_pkg36_t180s.png": "d62194ddbf96cab74be35a55e16b11d6d7e8f63ea21db728e0bca0632e63dfaa",
+          "overlay_36_pkg37_t185s.png": "cfdc089827502e2d954845a3201c61b88bae2b2b1e47cca5600bedbd78a344be",
+          "overlay_37_pkg38_t190s.png": "cf3ba1f6eca584bf12821c4c63c1d85f9de98998dfc4d13d21949f89f1cb4513",
+          "overlay_38_pkg39_t195s.png": "42d85f01d8b8e438f0f12d15eeb99ff198588b8fa853768518466188b4068775",
+          "overlay_39_pkg40_t200s.png": "458063a9d4b55a0f5843db905df7b29443cf2e3d1c193016f59f64b3c4298729",
+          "overlay_40_pkg41_t205s.png": "df6c3de0fe2213d48a02c2c07cf867a6d030b3a1b20fd2da27182ffc295429b1",
+          "overlay_41_pkg42_t210s.png": "783f88e7c1ecfaa7a01963ad49b1ca0950ce0146c682d4645d41928ab790a218",
+          "overlay_42_pkg43_t215s.png": "b924f78124cc62efbb558c1598073aa7652078269d121d893531ddaccb5d779b",
+          "overlay_43_pkg44_t220s.png": "a7b9db4b3c7f3a927793f41101cf7dc7dda8feee5cbd21ea040f338b36089aca",
+          "overlay_44_pkg45_t225s.png": "42f182e5243729aa9d6305dd330be16be3134a0081aa98a4f2c97ae5137d54c8",
+          "overlay_45_pkg46_t230s.png": "78589c103a62ee9d9512dc8b8c8b0904c811449dd7f93ad940f26112dd95cb57",
+          "overlay_46_pkg47_t235s.png": "f02e444e971e33c85fed83648e472da7ac6b1e4a471fa2ec972b4c711878e1e5",
+          "overlay_47_pkg48_t240s.png": "eaaa785aefc319053621b696ef57e30c2e3a6aa32f9e982f8d9754404fb484f9",
+          "overlay_48_pkg49_t245s.png": "6a63a5b8410f0d9f15c225c57c4696b28e8665445a8b7b4a160ff4928b6c6056",
+          "overlay_49_pkg50_t250s.png": "fae2d93434863a14986cf398eeab35e85274a2fb1d4c1f9661cdd0a867e34648"
+        },
+        "dataset": "Ex vivo porcine heart RF ablation, IUS 2026 poster Fig. 3 frame set"
+      },
+      "frames_in_source": 49,
+      "packages_shown": "1-50",
+      "packages_not_in_poster_set": [
+        2
+      ],
+      "ablation_seconds_covered": 249.9,
+      "playback_speed": 10,
+      "wavelengths_nm": [
+        700,
+        710,
+        720,
+        840,
+        850
+      ]
+    }
+  ]
+}
